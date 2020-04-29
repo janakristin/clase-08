@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--agregar metadatos-->
+    <link rel="stylesheet" href="estilo.css">
+    <title>Coronavirus por regiones en Chile</title>
+</head>
+
+<body>
+    <nav>
+        <select onchange="if (this.value) window.location.href=this.value">
+            <option value="index.html" selected>Página portada</option>
+            <option value="page.html">Página interior</option>
+        </select>
+    </nav>
+    <div class="container">
+        <header>
+            <!--el elemento hgroup ya no se usa; ver http://html5doctor.com/the-hgroup-element/ -->
+            <h1><a href="index.html">Casos de coronavirus por regiones en Chile</a></h1>
+            <h3>La cifra de contagiados llegó a 434, según informó el Ministerio de Salud en la mañana de este viernes. Acá conoce el desglose por cada región del país.</h3>
+            <h5>Diego Vega; Actualizado a: 21/03/2020 08:26</h5>
+            <hr>
+        </header>
+        <section>
+            <p>La cifra de contagiados por coronavirus aumentó en 92 personas, según dio a conocer el gobierno este viernes. La nueva cifra entregada por el Ministerio de Salud, a través de Jaime Mañalich, es de 434 pacientes. Hasta ayer jueves, la lista incluía a 342. El aumento llega dos días después de que el Presidente Sebastián Piñera declarara Estado de Catástrofe en el país. El gobierno, bajo este escenario descrito, anunció el cierre de cines, teatros, restaurantes, pubs, discoteques y todo evento deportivo que congregue público.</p>
+            <blockquote cite="https://chile.as.com/chile/2020/03/20/tikitakas/1584712769_006136.html">
+                <p>En ese mismo sentido, Jaime Mañalich explicó que existe un caso grave. Un paciente que está hospitalizado, con ventilación mecánica: "Hay un caso de una persona de no avanzada edad que tiene más de un órgano comprometido por una enfermedad crónica, por lo que está en riesgo vital", dijo el titular de Salud, quien no entregó más detalles sobre la persona afectada.</p>
+                <footer><a href="https://chile.as.com/chile/2020/03/20/tikitakas/1584712769_006136.html">Caso de extrema gravedad por coronavirus</a></footer>
+            </blockquote>
+            <h2>Región Metropolitana tiene el 70% de los contagiados</h2>
+            <p>Los casos de coronavirus COVID-19 por región en Chile:</p>
+            <!--ver https://developer.mozilla.org/es/docs/Web/HTML/Elemento/ul -->
+            <ul>
+                <li>Metropolitana: 	304 casos</li>
+                <li>Ñuble: 	44 casos</li>
+                <li>Biobío: 	19 casos</li>
+            </ul>
+            <p>Tal como se puede ver en el cuadro anterior, 15 regiones presentan al menos un caso por contagio de COVID-19. La única región que no tiene ningún infectado es la de Tarapacá. En tanto, Atacama, Los Ríos y Aysén solo presentan uno.</p>
+            <figure>
+                <img src="casos_covid.png" alt="casos confirmdos de COVID-19 en Chile">
+                <figcaption>Casos confirmdos de COVID-19 en Chile</figcaption>
+            </figure>
+            <p>Según la misma información del ministro Jaime Mañalich existen seis casos de personas “que han finalizado su cuarentena y se han recuperado”. Esa cifra podría aumentar en las próximas horas. <strong>Para más información <a href="page.html">visita la página interior</a></strong>.</p>
+        </section>
+        <footer>
+            <hr>
+            <p>Jana Müller &copy; 2020 <span class="derecha">Séptima clase, enfocada en <abbr title="HyperText Markup Language">html</abbr></span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
